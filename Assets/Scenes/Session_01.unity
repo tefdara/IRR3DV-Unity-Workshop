@@ -388,18 +388,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 74
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Spawn Objects
 --- !u!222 &835088554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -800,31 +800,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 550
+      value: 552.5214
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 40
+      value: 40.351437
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 357
+      value: 354.68637
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8882526
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.0915197
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.4477728
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.046162322
       objectReference: {fileID: 0}
     - target: {fileID: 4901745060896425972, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -843,8 +843,32 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_HDR
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
       propertyPath: m_Depth
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_RenderingPath
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901745061037563155, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8146d28d1f88db40ae3d377932caf1b, type: 3}

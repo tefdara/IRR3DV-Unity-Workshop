@@ -7,6 +7,14 @@ public class SphereCreator : MonoBehaviour
     public GameObject Sphere;
 
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            MakeSphere();
+        }
+    }
+
     public void MakeSphere() 
     {
 
